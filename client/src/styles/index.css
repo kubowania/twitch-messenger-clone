@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+}
+
+.messaging-container {
+  max-width: 30%;
+  min-width: 400px;
+  height: 100%;
+}
+
+.auth-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #070a0d;
+  display: flex;
+  justify-content: center;
+}
+
+.auth-container-box {
+  background-color: #151a1f;
+  align-self: center;
+}
+
+.auth-container-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.auth-container-form input {
+  font-size: 20px;
+  padding: 8px;
+  margin: 0 0 8px 0;
+}
+
+.auth-options {
+  display: flex;
+  flex-direction: row;
+}
+
+.auth-options button {
+  width: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  background-color: #151a1f;
+  padding: 8px;
+}
+
+.standard-button {
+  background-color: #6441a5;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  padding: 8px;
+  width: 100%;
+}
+
+.standard-button:hover {
+  background-color: #392a53;
+}
+
+.userlist-container {
+  width: 100%;
+  padding: 20px;
+  height: 70%;
+  background-color: #151a1f;
+  overflow-y: scroll;
+}
+
+.userlist-container li {
+  list-style: none;
+  padding: 3px;
+  margin: 0;
+  display: flex;
+}
+
+.userlist-container li p {
+  padding: 0 0 5px 5px;
+  margin: 0;
+}
+
+.chat-container {
+  width: 100%;
+  height: 100%;
+  background-color: #070a0d;
+  position: relative;
+  bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.icon {
+  position: fixed;
+  z-index: +10;
+  top: 25px;
+  right: 20px;
+}
+
+
+
+
+
