@@ -10,9 +10,6 @@ const Auth = () => {
     const [confirmPassword, setConfirmPassword] = useState(null)
     const [error, setError] = useState(false)
 
-    console.log(username)
-    console.log(password)
-
     const handleSubmit = async (endpoint) => {
         console.log(endpoint)
         if (!isLogin && password !== confirmPassword) {
@@ -24,8 +21,6 @@ const Auth = () => {
             username,
             password
         })
-
-        console.log(response)
 
         setCookie('Name', response.data.username)
         setCookie('HashedPassword', response.data.hashedPassword)
